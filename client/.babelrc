@@ -6,7 +6,5 @@
         ],
         "react"
     ],
-    "plugins": [
-        "react-hot-loader/babel"
-    ]
+    "plugins":[["import", {"libraryName": "antd", "style": "css"}]]
 }
