@@ -1,6 +1,6 @@
 import axios from 'axios'
 // import tokenHandler from '../utils/utils'
-import { checkStatus, handleError } from './checkStatus';
+import {checkStatus, handleError} from './checkStatus';
 
 export default function AxiosMethod(url, options) {
 	let config = {}
@@ -14,8 +14,7 @@ export default function AxiosMethod(url, options) {
 			//'token':'6d40222b-05c6-4508-8be4-b8624a368a81',
 		},
 	}
-
-	const newOptions = { ...config, ...options };
+	const newOptions = {...config, ...options};
 	newOptions.url = url;
 
 	if ('method' in newOptions) {

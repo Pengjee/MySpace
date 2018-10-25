@@ -1,5 +1,5 @@
-import AxiosMethod from 'request.axios'
-import FetchMethod from 'request.fetch'
+import AxiosMethod from './request.axios'
+import FetchMethod from './request.fetch'
 import { REQUEST_METHOD } from '../config/config'
 
 export default function request(url,options) {

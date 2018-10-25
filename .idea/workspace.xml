@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23835a37-4023-44ef-9767-7310e17d9a77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/action/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/request/checkStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/request/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/request/request.axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/request/request.fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/service/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/utils/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/utils/errorCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/utils/ip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/utils/tokenHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/utils/utils.js" afterDir="false" />
+    <list default="true" id="23835a37-4023-44ef-9767-7310e17d9a77" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/Client/src/layout/BasicLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/action/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/createReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/reducer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/reducer/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/store/initState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/redux/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/action/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/config/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/request/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/request/request.axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/request/request.axios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/service/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/service/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/view/DashBoard/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/layout/BasicLayout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/view/DashBoard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/view/DashBoard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/action/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DashBoard/index.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,25 +37,25 @@
     <session id="712016734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="babelrc" value="2" />
+          <entry key="babelrc" value="4" />
           <entry key="conf" value="1" />
-          <entry key="css" value="1" />
-          <entry key="editorconfig" value="1" />
+          <entry key="css" value="2" />
+          <entry key="editorconfig" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="js" value="52" />
-          <entry key="json" value="5" />
+          <entry key="js" value="78" />
+          <entry key="json" value="8" />
           <entry key="less" value="2" />
           <entry key="md" value="2" />
           <entry key="svg" value="2" />
@@ -62,21 +63,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="3" />
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="78" />
           <entry key="Less" value="2" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="babelrc" value="10" />
+          <entry key="babelrc" value="34" />
           <entry key="html" value="10" />
-          <entry key="js" value="1310" />
+          <entry key="js" value="2252" />
           <entry key="json" value="14" />
           <entry key="txt" value="7" />
         </counts>
@@ -84,8 +85,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="10" />
-          <entry key="JSON" value="24" />
-          <entry key="JavaScript" value="1310" />
+          <entry key="JSON" value="48" />
+          <entry key="JavaScript" value="2252" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -98,23 +99,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/view/DashBoard/index.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/src/layout/BasicLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Client/src/main.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/redux/action/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/view/DashBoard/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/request/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/webpack.dev.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/webpack.prod.conf.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/webpack.base.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -156,16 +216,11 @@
         <option value="$PROJECT_DIR$/Client/src/view/App.js" />
         <option value="$PROJECT_DIR$/Client/webpack.config.js" />
         <option value="$PROJECT_DIR$/Client/README.md" />
-        <option value="$PROJECT_DIR$/Client/package.json" />
         <option value="$PROJECT_DIR$/Client/config-overrides.js" />
-        <option value="$PROJECT_DIR$/Client/.babelrc" />
         <option value="$PROJECT_DIR$/Client/src/view/Error/404.js" />
-        <option value="$PROJECT_DIR$/Client/src/router/index.js" />
         <option value="$PROJECT_DIR$/Client/src/request/inedx.js" />
         <option value="$PROJECT_DIR$/Client/src/request/request.fetch.js" />
         <option value="$PROJECT_DIR$/Client/src/config/config.js" />
-        <option value="$PROJECT_DIR$/Client/src/request/index.js" />
-        <option value="$PROJECT_DIR$/Client/src/request/request.axios.js" />
         <option value="$PROJECT_DIR$/Client/src/utils/errorCode.js" />
         <option value="$PROJECT_DIR$/Client/src/request/checkStatus.js" />
         <option value="$PROJECT_DIR$/Client/src/utils/ip.js" />
@@ -176,10 +231,24 @@
         <option value="$PROJECT_DIR$/Client/index.html" />
         <option value="$PROJECT_DIR$/Client/src/assets/logo.svg" />
         <option value="$PROJECT_DIR$/Client/src/view/DashBoard/index.less" />
-        <option value="$PROJECT_DIR$/Client/src/view/DashBoard/index.js" />
-        <option value="$PROJECT_DIR$/Client/src/service/menu.js" />
         <option value="$PROJECT_DIR$/Client/src/action/menu.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/store/initState.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/createReducer.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/action/menu.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/reducer/index.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/reducer/menu.js" />
+        <option value="$PROJECT_DIR$/Client/src/redux/store/store.js" />
+        <option value="$PROJECT_DIR$/Client/src/view/DashBoard/index.js" />
         <option value="$PROJECT_DIR$/Client/src/main.js" />
+        <option value="$PROJECT_DIR$/Client/src/router/index.js" />
+        <option value="$PROJECT_DIR$/Client/src/config/api.js" />
+        <option value="$PROJECT_DIR$/Client/src/service/menu.js" />
+        <option value="$PROJECT_DIR$/Client/src/request/index.js" />
+        <option value="$PROJECT_DIR$/Client/src/request/request.axios.js" />
+        <option value="$PROJECT_DIR$/Client/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/Client/package.json" />
+        <option value="$PROJECT_DIR$/Client/.babelrc" />
+        <option value="$PROJECT_DIR$/Client/src/layout/BasicLayout.js" />
       </list>
     </option>
   </component>
@@ -254,7 +323,7 @@
               <item name="MySpace" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,6 +348,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Client/src/layout" />
       <recent name="$PROJECT_DIR$/client/src/view" />
     </key>
   </component>
@@ -309,7 +379,10 @@
       <workItem from="1540344537032" duration="44000" />
       <workItem from="1540346381830" duration="2149000" />
       <workItem from="1540349275573" duration="1929000" />
-      <workItem from="1540367582255" duration="2951000" />
+      <workItem from="1540367582255" duration="3064000" />
+      <workItem from="1540373603439" duration="228000" />
+      <workItem from="1540430812020" duration="4432000" />
+      <workItem from="1540435921415" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1540348749551</created>
@@ -325,17 +398,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540351709645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1540371139914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540371139914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9755000" />
+    <option name="totallyTimeSpent" value="14589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23044397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -347,7 +427,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37298638" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24783148" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -366,12 +446,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/index.css" />
-    <entry file="file://$PROJECT_DIR$/Client/src/serviceWorker.js" />
-    <entry file="file://$PROJECT_DIR$/Client/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/Client/src/models/login.js" />
-    <entry file="file://$PROJECT_DIR$/Client/src/models/list.js" />
-    <entry file="file://$PROJECT_DIR$/Client/src/models/global.js" />
     <entry file="file://$PROJECT_DIR$/Client/src/models/setting.js" />
     <entry file="file://$PROJECT_DIR$/Client/src/models/project.js" />
     <entry file="file://$PROJECT_DIR$/Client/package-lock.json" />
@@ -387,26 +461,11 @@
     <entry file="file://$PROJECT_DIR$/Client/src/services/error.js" />
     <entry file="file://$PROJECT_DIR$/Client/src/services/geographic.js" />
     <entry file="file://$PROJECT_DIR$/Client/src/pages/Authorized.js" />
-    <entry file="file://$PROJECT_DIR$/Client/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -418,41 +477,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/config-overrides.js" />
-    <entry file="file://$PROJECT_DIR$/Client/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/view/Error/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -504,20 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/request/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/request/request.axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -531,30 +535,153 @@
     <entry file="file://$PROJECT_DIR$/Client/src/assets/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/view/DashBoard/index.js">
+    <entry file="file://$PROJECT_DIR$/Client/src/action/menu.js" />
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/createReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/action/menu.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/store/initState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/reducer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/reducer/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/config/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/service/menu.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/view/DashBoard/index.css">
+    <entry file="file://$PROJECT_DIR$/Client/src/layout/BasicLayout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="357">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/request/request.axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/redux/action/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/view/DashBoard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/request/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/layout/BasicLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
