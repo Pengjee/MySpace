@@ -2,9 +2,9 @@ import request from '../request'
 import {createTheURL} from "../utils/utils";
 import Config from '../config/api';
 
-export default function getMenu(params) {
+export async function getMenu(params) {
 	return request(createTheURL(Config.API.MENU, 'get'), {
-		method : 'GET',
+		method : 'POST',
 		body : params,
 	});
 }

@@ -1,6 +1,11 @@
 import React from 'react'
 import {Layout, Menu, Breadcrumb, Icon} from 'antd';
+import {Route, Switch} from 'react-router-dom'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import menuAction from '../redux/action/menu'
 import './BasicLayout.css'
+import Routers from '../router'
 
 const {Header, Content, Footer, Sider} = Layout;
 const SubMenu = Menu.SubMenu;
@@ -13,13 +18,17 @@ class DashBoard extends React.Component {
 		}
 		this.onCollapse = this.onCollapse.bind(this)
 	}
-
+	componentWillMount () {
+		const { getMenuList } = this.props
+		getMenuList()
+	}
 	onCollapse(collapsed) {
 		this.setState({collapsed});
 	}
 
-	render() {
-		return (
+	render(){
+		const { menu } = this.props
+ 		return (
 			<Layout style={{minHeight : '100vh'}}>
 				<Sider
 					collapsible
@@ -28,6 +37,7 @@ class DashBoard extends React.Component {
 				>
 					<div className="logo"/>
 					<Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+
 						<Menu.Item key="1">
 							<Icon type="pie-chart"/>
 							<span>Option 1</span>
@@ -64,9 +74,14 @@ class DashBoard extends React.Component {
 							<Breadcrumb.Item>User</Breadcrumb.Item>
 							<Breadcrumb.Item>Bill</Breadcrumb.Item>
 						</Breadcrumb>
-						<div style={{padding : 24, background : '#fff', minHeight : 360}}>
-							Bill is a cat.
-						</div>
+						<Switch>
+							{
+								Routers.map((item) => {
+									<Route path={item.path} component={item.component}/>
+								})
+							}
+						</Switch>
+
 					</Content>
 					<Footer style={{textAlign : 'center'}}>
 						Ant Design ©2018 Created by Ant UED
@@ -77,4 +92,14 @@ class DashBoard extends React.Component {
 	}
 }
 
-export default DashBoard
+function mapStateToProps(state) {
+	return {
+		menu: state.menu
+	}
+}
+
+function mapDispatchToProps(dispatch) {
+	return bindActionCreators(menuAction, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(DashBoard)
