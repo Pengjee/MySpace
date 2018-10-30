@@ -22,10 +22,16 @@ class DashBoard extends React.Component {
 		const { getMenuList } = this.props
 		getMenuList()
 	}
+	componentDidMount () {
+		this.createMenuMap()
+	}
 	onCollapse(collapsed) {
 		this.setState({collapsed});
 	}
 
+	createMenuMap=()=>{
+
+	}
 	render(){
 		const { menu } = this.props
  		return (
