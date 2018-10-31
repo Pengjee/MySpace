@@ -1,5 +1,6 @@
 export default {
 	API: {
-		MENU: '/api/menu'
+		MENU: '/api/menu',
+		DICT: '/api/dict'
 	}
 }

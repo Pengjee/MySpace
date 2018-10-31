@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import React, {Component} from 'react'
 
 class DashBoard extends Component {
 	constructor(props) {
@@ -7,7 +7,7 @@ class DashBoard extends Component {
 
 	render() {
 		return (
-			<div>111</div>
+			<div>DashBoard</div>
 		)
 	}
 }

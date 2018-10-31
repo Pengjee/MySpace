@@ -1,3 +1,4 @@
 export default {
-	menu:{}
+	menu:{},
+	dictList: []
 }
