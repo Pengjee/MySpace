@@ -4,8 +4,8 @@ import thunk from 'redux-thunk';
 import reducer from '../reducer'
 
 let enhancer = compose(
-	applyMiddleware(thunk, createLogger()),
-	// applyMiddleware(thunk),
+	//applyMiddleware(thunk, createLogger()),
+	applyMiddleware(thunk),
 	window.devToolsExtension ? window.devToolsExtension() : f => f
 );
 

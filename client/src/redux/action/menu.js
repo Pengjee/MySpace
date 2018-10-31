@@ -4,13 +4,14 @@ import {getMenu} from '../../service/menu'
 const GET_MENU = 'GET_MENU'
 
 //Action Creator
-const getMenuList = params => dispatch => {
-	getMenu(params).then((ret)=>{
+const getMenuList = params => async dispatch => {
+	const ret = await getMenu(params)
+	if(ret.code === 0) {
 		dispatch({
 			type:GET_MENU,
 			payload: ret.data
 		})
-	})
+	}
 }
 export default {
 	getMenuList
